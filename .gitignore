@@ -1,0 +1,3 @@
+# 排出执行文件目录
+collectedstatic/
+venv/

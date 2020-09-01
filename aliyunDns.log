@@ -1,0 +1,81 @@
+2020-08-30 14:32:29,794	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:32:29,794	File "aliyunDdns.py",line 209	DEBUG: apiId = False , apiKey = False, domain = , subDomain= 
+2020-08-30 14:32:29,794	File "aliyunDdns.py",line 212	CRITICAL: args error: /Users/yinbin/workspace/updatedns/aliyunDdns.py
+2020-08-30 14:32:29,794	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:33:30,150	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:33:30,150	File "aliyunDdns.py",line 209	DEBUG: apiId = False , apiKey = False, domain = , subDomain= 
+2020-08-30 14:33:30,150	File "aliyunDdns.py",line 212	CRITICAL: args error: ./aliyunDdns.py
+2020-08-30 14:33:30,150	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:33:41,102	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:33:41,102	File "aliyunDdns.py",line 209	DEBUG: apiId = False , apiKey = False, domain = , subDomain= 
+2020-08-30 14:33:41,102	File "aliyunDdns.py",line 212	CRITICAL: args error: ./aliyunDdns.py-h
+2020-08-30 14:33:41,103	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:33:57,842	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:33:57,842	File "aliyunDdns.py",line 209	DEBUG: apiId = False , apiKey = False, domain = , subDomain= 
+2020-08-30 14:33:57,842	File "aliyunDdns.py",line 212	CRITICAL: args error: ./aliyunDdns.py-h
+2020-08-30 14:33:57,842	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:34:08,160	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:35:15,423	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:35:15,423	File "aliyunDdns.py",line 209	DEBUG: apiId = True , apiKey = True, domain = qdqtrj.com, subDomain= www.qdqtrj.com
+2020-08-30 14:35:15,630	File "aliyunDdns.py",line 117	INFO: get dns record result: 
+{"TotalCount":0,"RequestId":"1F9494A1-9BC7-47C3-A6B5-B6AA99A4157B","PageSize":500,"DomainRecords":{"Record":[]},"PageNumber":1}
+2020-08-30 14:35:15,863	File "aliyunDdns.py",line 69	DEBUG: ip 27.210.137.228
+2020-08-30 14:35:15,864	File "aliyunDdns.py",line 218	INFO: dns_record: {'domain_name': '', 'record_id': '', 'rr': '', 'dr_type': '', 'value': ''}
+2020-08-30 14:35:15,864	File "aliyunDdns.py",line 226	INFO: ip not exist, add record
+2020-08-30 14:35:16,055	File "aliyunDdns.py",line 90	INFO: add dns record result: 
+{"RequestId":"354345DE-4089-465E-9927-9AC3FFC5C924","RecordId":"20311856991008768"}
+2020-08-30 14:35:16,055	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:35:51,705	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:35:51,706	File "aliyunDdns.py",line 209	DEBUG: apiId = True , apiKey = True, domain = qdqtrj.com, subDomain= www
+2020-08-30 14:35:51,813	File "aliyunDdns.py",line 117	INFO: get dns record result: 
+{"TotalCount":1,"RequestId":"AC0C18A0-68F7-445E-B2B9-2987426FF5A3","PageSize":500,"DomainRecords":{"Record":[{"RR":"www","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"qdqtrj.com","Value":"34.92.172.139","RecordId":"19461967741860864","TTL":600,"Weight":1}]},"PageNumber":1}
+2020-08-30 14:35:51,867	File "aliyunDdns.py",line 69	DEBUG: ip 27.210.137.228
+2020-08-30 14:35:51,867	File "aliyunDdns.py",line 218	INFO: dns_record: {'domain_name': 'qdqtrj.com', 'record_id': '19461967741860864', 'rr': 'www', 'dr_type': 'A', 'value': '34.92.172.139'}
+2020-08-30 14:35:51,867	File "aliyunDdns.py",line 230	INFO: ip exist, update record
+2020-08-30 14:35:52,095	File "aliyunDdns.py",line 153	INFO: update dns record result: 
+{"RequestId":"DF4C70DB-D320-4E1A-841B-1BE87EEFB58C","RecordId":"19461967741860864"}
+2020-08-30 14:35:52,095	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 14:43:02,461	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 14:43:02,461	File "aliyunDdns.py",line 209	DEBUG: apiId = True , apiKey = True, domain = qdqtrj.com, subDomain= www
+2020-08-30 14:43:02,592	File "aliyunDdns.py",line 117	INFO: get dns record result: 
+{"TotalCount":1,"RequestId":"8199DA3B-3C8E-4259-86C5-68D10FF37CA8","PageSize":500,"DomainRecords":{"Record":[{"RR":"www","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"qdqtrj.com","Value":"27.210.137.228","RecordId":"19461967741860864","TTL":600,"Weight":1}]},"PageNumber":1}
+2020-08-30 14:43:02,657	File "aliyunDdns.py",line 69	DEBUG: ip 27.210.137.228
+2020-08-30 14:43:02,657	File "aliyunDdns.py",line 218	INFO: dns_record: {'domain_name': 'qdqtrj.com', 'record_id': '19461967741860864', 'rr': 'www', 'dr_type': 'A', 'value': '27.210.137.228'}
+2020-08-30 14:43:02,658	File "aliyunDdns.py",line 221	INFO: ip is same, don't need update record
+2020-08-30 14:43:02,658	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 21:50:27,975	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 21:50:27,975	File "aliyunDdns.py",line 209	DEBUG: apiId = True , apiKey = True, domain = qdqtrj.com, subDomain= www
+2020-08-30 21:50:28,124	File "aliyunDdns.py",line 117	INFO: get dns record result: 
+{"TotalCount":1,"RequestId":"F758CD35-DD2D-4B78-84B5-EF6DAAAA482D","PageSize":500,"DomainRecords":{"Record":[{"RR":"www","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"qdqtrj.com","Value":"27.210.137.228","RecordId":"19461967741860864","TTL":600,"Weight":1}]},"PageNumber":1}
+2020-08-30 21:50:28,192	File "aliyunDdns.py",line 69	DEBUG: ip 119.166.183.61
+2020-08-30 21:50:28,192	File "aliyunDdns.py",line 218	INFO: dns_record: {'domain_name': 'qdqtrj.com', 'record_id': '19461967741860864', 'rr': 'www', 'dr_type': 'A', 'value': '27.210.137.228'}
+2020-08-30 21:50:28,192	File "aliyunDdns.py",line 230	INFO: ip exist, update record
+2020-08-30 21:50:28,418	File "aliyunDdns.py",line 153	INFO: update dns record result: 
+{"RequestId":"8703740A-86E6-422A-BC59-4A22A6DB0F6E","RecordId":"19461967741860864"}
+2020-08-30 21:50:28,419	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
+2020-08-30 21:53:26,151	File "aliyunDdns.py",line 50	INFO: ----------------------------------------begin-------------------------------------
+2020-08-30 21:53:26,151	File "aliyunDdns.py",line 209	DEBUG: apiId = True , apiKey = True, domain = qdqtrj.com, subDomain= www
+2020-08-30 21:53:26,280	File "aliyunDdns.py",line 117	INFO: get dns record result: 
+{"TotalCount":1,"RequestId":"F95ED11F-C4AF-4DF6-A97D-746A3EFEC10A","PageSize":500,"DomainRecords":{"Record":[{"RR":"www","Line":"default","Status":"ENABLE","Locked":false,"Type":"A","DomainName":"qdqtrj.com","Value":"119.166.183.61","RecordId":"19461967741860864","TTL":600,"Weight":1}]},"PageNumber":1}
+2020-08-30 21:53:26,345	File "aliyunDdns.py",line 69	DEBUG: ip 119.166.183.61
+2020-08-30 21:53:26,345	File "aliyunDdns.py",line 218	INFO: dns_record: {'domain_name': 'qdqtrj.com', 'record_id': '19461967741860864', 'rr': 'www', 'dr_type': 'A', 'value': '119.166.183.61'}
+2020-08-30 21:53:26,345	File "aliyunDdns.py",line 221	INFO: ip is same, don't need update record
+2020-08-30 21:53:26,345	File "aliyunDdns.py",line 54	INFO: ----------------------------------------end---------------------------------------
+
+
